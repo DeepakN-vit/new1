@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    .earth {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: url('https://upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Solar-system.gif/200px-Solar-system.gif') no-repeat center;
+      background-size: cover;
+      animation: rotate 10s linear infinite;
+    }
+    
+    @keyframes rotate {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="earth"></div>
+</body>
+</html>
